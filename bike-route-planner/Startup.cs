@@ -33,6 +33,7 @@ namespace bike_route_planner
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("<h1>This is my cool Bike Route Planner app!</h1>");
+                    await context.Response.WriteAsync("<h1>hello world.</h1>");
                 });
             });
         }
